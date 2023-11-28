@@ -1,4 +1,4 @@
-package medium.Find_First_and_Last_Position_of_Element_in_Sorted_Array;
+package medium.find_first_and_last_position_of_element_in_sorted_array;
 
 import java.util.Arrays;
 

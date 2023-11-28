@@ -1,4 +1,4 @@
-package medium.Container_With_Most_Water;
+package medium.container_with_most_water;
 
 public class Main {
     public static void main(String[] args) {

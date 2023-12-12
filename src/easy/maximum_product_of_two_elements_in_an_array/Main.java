@@ -19,6 +19,6 @@ public class Main {
                 nextMax = nums[i];
             }
         }
-        return (max - 1) * (nextMax - 1);
+        return --max * --nextMax;
     }
 }

@@ -20,6 +20,7 @@ Example 2:
 
 
 
+
 Constraints:
 
     2 <= prices.length <= 50

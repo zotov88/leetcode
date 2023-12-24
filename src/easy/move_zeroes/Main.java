@@ -1,7 +1,5 @@
 package easy.move_zeroes;
 
-import com.sun.net.httpserver.HttpServer;
-
 import java.util.Arrays;
 
 public class Main {

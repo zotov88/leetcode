@@ -6,13 +6,31 @@ import java.util.Map;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(convertToTitle(701));
+        System.out.println(convertToTitle(703));
     }
 
     public static String convertToTitle(int columnNumber) {
         Map<Integer, Character> map = getFillMap();
+        String s = "";
+        int remainder = 1;
 
-        return null;
+        while (columnNumber > 0) {
+            if (columnNumber > 26) {
+                remainder = columnNumber / map.size();
+            } else {
+                remainder = columnNumber;
+            }
+
+            if (remainder > 26) {
+                s = convertToTitle(remainder);
+            }
+
+            s += map.get(remainder);
+            int minus = remainder * map.size();
+            columnNumber -= minus;
+        }
+
+        return s;
     }
 
     private static Map<Integer, Character> getFillMap() {
@@ -47,5 +65,30 @@ public class Main {
         return map;
     }
 
+    public static String convertToTitle2(int columnNumber) {
 
+        HashMap<Integer, Character> hm = new HashMap<>();
+        hm.put(0, 'Z');
+        for(int i=1; i<=26; i++) {
+            hm.put(i, (char)(64 + i));
+        }
+        StringBuilder sb = new StringBuilder("");
+        int num = columnNumber;
+        if(num < 27) {
+            sb.append(hm.get(num));
+        }
+        while(num>=27) {
+            int mod = num%26;
+            num = num/26;
+            sb.append(hm.get(mod));
+            if(mod == 0) {
+                num--;
+            }
+            if(num < 27) {
+                sb.append(hm.get(num));
+            }
+        }
+        sb.reverse();
+        return sb.toString();
+    }
 }

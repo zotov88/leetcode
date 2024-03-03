@@ -21,7 +21,7 @@ public class Main {
 
     private static class Box implements Comparable<Box> {
 
-        int i;
+        private final int i;
 
         public Box(int i) {
             this.i = i;

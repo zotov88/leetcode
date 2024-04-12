@@ -19,6 +19,8 @@ Example 2:
     Input: command = "G()()()()(al)"
     Output: "Gooooal"
 
+
+
 Example 3:
 
     Input: command = "(al)G(al)()()G"

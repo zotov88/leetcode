@@ -10,9 +10,7 @@ public class Main {
     public static int[] smallerNumbersThanCurrent(int[] nums) {
         int max = Arrays.stream(nums).max().getAsInt();
         int[] indexes = new int[max + 1];
-
         Arrays.stream(nums).forEach(i -> indexes[i]++);
-
         int[] result = new int[nums.length];
 
         for (int i = 0; i < result.length; i++) {

@@ -16,7 +16,6 @@ public class Main {
         for (int i = 0; i < result.length; i++) {
             result[i] = getSumIntervalArray(indexes, nums[i]);
         }
-
         return result;
     }
 

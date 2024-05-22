@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(smallerNumbersThanCurrent(new int[]{6, 5, 4, 19})));
+        System.out.println(Arrays.toString(smallerNumbersThanCurrent(new int[]{6, 5, 4, 10})));
     }
 
     public static int[] smallerNumbersThanCurrent(int[] nums) {

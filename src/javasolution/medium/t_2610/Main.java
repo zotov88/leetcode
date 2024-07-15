@@ -9,7 +9,7 @@ import java.util.stream.IntStream;
 
 public class Main {
     public static void main(String[] args) {
-        int[] nums ={1, 3, 4, 1, 2, 3, 1};
+        int[] nums = {1, 3, 4, 1, 2, 3, 1};
         List<List<Integer>> matrix = findMatrix(nums);
         IntStream.range(0, matrix.size())
                 .forEach(i -> System.out.println(matrix.get(i)));
@@ -22,7 +22,7 @@ public class Main {
             Set<Integer> set = Arrays.stream(nums).boxed().collect(Collectors.toSet());
             result.add(new ArrayList<>(set));
             int[] tmp = new int[nums.length - set.size()];
-            for(int i = 0, j = 0; i < nums.length; i++) {
+            for (int i = 0, j = 0; i < nums.length; i++) {
                 if (set.contains(nums[i])) {
                     set.remove(nums[i]);
                 } else {

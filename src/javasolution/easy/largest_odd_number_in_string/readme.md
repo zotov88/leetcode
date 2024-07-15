@@ -1,8 +1,7 @@
-You are given a string num, representing a large integer. Return the largest-valued odd integer (as a string) that is a non-empty substring of num, or an empty string "" if no odd integer exists.
+You are given a string num, representing a large integer. Return the largest-valued odd integer (as a string) that is a
+non-empty substring of num, or an empty string "" if no odd integer exists.
 
 A substring is a contiguous sequence of characters within a string.
-
-
 
 Example 1:
 
@@ -21,8 +20,6 @@ Example 3:
     Input: num *= "35427"
     Output: "35427"
     Explanation: "35427" is already an odd number.
-
-
 
 Constraints:
 

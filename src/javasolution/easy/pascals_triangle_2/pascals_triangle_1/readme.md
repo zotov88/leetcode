@@ -19,12 +19,8 @@ Example 3:
     Input: rowIndex = 1
     Output: [1,1]
 
-
-
 Constraints:
 
     0 <= rowIndex <= 33
-
-
 
 Follow up: Could you optimize your algorithm to use only O(rowIndex) extra space?

@@ -3,7 +3,7 @@ package javasolution.easy.element_appearing_more_than_25per_In_sorted_array;
 public class Main {
 
     public static void main(String[] args) {
-        int[] arr = new int[]{1,2,2,6,6,6,6,7,10};
+        int[] arr = new int[]{1, 2, 2, 6, 6, 6, 6, 7, 10};
         System.out.println(findSpecialInteger(arr));
     }
 

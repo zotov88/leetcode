@@ -34,7 +34,7 @@ public class Main {
             if (height[i] <= previousHeightLeftBoard) {
                 continue;
             }
-            for (int j = height.length - 1; j > i ; j--) {
+            for (int j = height.length - 1; j > i; j--) {
                 int tmpArea = Math.min(height[i], height[j]) * (j - i);
                 if (tmpArea > maxArea) {
                     maxArea = tmpArea;

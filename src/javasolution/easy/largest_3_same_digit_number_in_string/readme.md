@@ -10,8 +10,6 @@ Note:
     A substring is a contiguous sequence of characters within a string.
     There may be leading zeroes in num or a good integer.
 
-
-
 Example 1:
 
     Input: num = "6777133339"
@@ -30,8 +28,6 @@ Example 3:
     Input: num = "42352338"
     Output: ""
     Explanation: No substring of length 3 consists of only one unique digit. Therefore, there are no good integers.
-
-
 
 Constraints:
 

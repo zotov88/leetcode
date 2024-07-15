@@ -4,8 +4,6 @@ A string is good if it can be formed by characters from chars (each character ca
 
 Return the sum of lengths of all good strings in words.
 
-
-
 Example 1:
 
     Input: words = ["cat","bt","hat","tree"], chars = "atach"
@@ -17,8 +15,6 @@ Example 2:
     Input: words = ["hello","world","leetcode"], chars = "welldonehoneyr"
     Output: 10
     Explanation: The strings that can be formed are "hello" and "world" so the answer is 5 + 5 = 10.
-
-
 
 Constraints:
 

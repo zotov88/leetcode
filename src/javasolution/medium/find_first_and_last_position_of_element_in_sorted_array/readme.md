@@ -1,10 +1,9 @@
-Given an array of integers nums sorted in non-decreasing order, find the starting and ending position of a given target value.
+Given an array of integers nums sorted in non-decreasing order, find the starting and ending position of a given target
+value.
 
 If target is not found in the array, return [-1, -1].
 
 You must write an algorithm with O(log n) runtime complexity.
-
-
 
 Example 1:
 
@@ -20,8 +19,6 @@ Example 3:
 
 Input: nums = [], target = 0
 Output: [-1,-1]
-
-
 
 Constraints:
 

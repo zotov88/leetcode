@@ -2,8 +2,6 @@ Given an m x n integer matrix matrix, if an element is 0, set its entire row and
 
 You must do it in place.
 
-
-
 Example 1:
 
 ![mat1.jpg](mat1.jpg)
@@ -17,8 +15,6 @@ Example 2:
 
     Input: matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
     Output: [[0,0,0,0],[0,4,5,0],[0,3,1,0]]
-
-
 
 Constraints:
 

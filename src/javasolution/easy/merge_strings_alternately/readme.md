@@ -1,8 +1,7 @@
-You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, starting with word1. If a string is longer than the other, append the additional letters onto the end of the merged string.
+You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, starting with
+word1. If a string is longer than the other, append the additional letters onto the end of the merged string.
 
 Return the merged string.
-
-
 
 Example 1:
 
@@ -30,8 +29,6 @@ Example 3:
     word1:  a   b   c   d
     word2:    p   q
     merged: a p b q c   d
-
-
 
 Constraints:
 

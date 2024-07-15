@@ -1,4 +1,5 @@
-Given a string columnTitle that represents the column title as appears in an Excel sheet, return its corresponding column number.
+Given a string columnTitle that represents the column title as appears in an Excel sheet, return its corresponding
+column number.
 
 For example:
 
@@ -10,8 +11,6 @@ For example:
     AA -> 27
     AB -> 28
     ...
-
-
 
 Example 1:
 
@@ -27,8 +26,6 @@ Example 3:
 
     Input: columnTitle = "ZY"
     Output: 701
-
-
 
 Constraints:
 

@@ -39,6 +39,6 @@ public class Main {
             right++;
         }
 
-        return new int[] {++left, --right};
+        return new int[]{++left, --right};
     }
 }

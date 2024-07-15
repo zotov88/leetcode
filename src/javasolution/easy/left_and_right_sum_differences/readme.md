@@ -10,8 +10,6 @@ Where:
 
 Return the array answer.
 
-
-
 Example 1:
 
     Input: nums = [10,4,8,3]
@@ -25,8 +23,6 @@ Example 2:
     Output: [0]
     Explanation: The array leftSum is [0] and the array rightSum is [0].
     The array answer is [|0 - 0|] = [0].
-
-
 
 Constraints:
 

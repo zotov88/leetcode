@@ -2,8 +2,6 @@ Given an integer array nums of unique elements, return all possible subsets (the
 
 The solution set must not contain duplicate subsets. Return the solution in any order.
 
-
-
 Example 1:
 
     Input: nums = [1,2,3]
@@ -13,8 +11,6 @@ Example 2:
 
     Input: nums = [0]
     Output: [[],[0]]
-
-
 
 Constraints:
 

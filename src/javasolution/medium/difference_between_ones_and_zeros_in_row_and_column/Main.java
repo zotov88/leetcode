@@ -7,7 +7,7 @@ import java.util.Map;
 public class Main {
 
     public static void main(String[] args) {
-        int[][] grid = new int[][] {
+        int[][] grid = new int[][]{
                 {1, 1, 1},
                 {1, 1, 1},
                 {1, 1, 1},

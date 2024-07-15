@@ -3,7 +3,7 @@ package javasolution.easy.special_positions_in_a_binary_matrix;
 public class Main {
 
     public static void main(String[] args) {
-        int[][] mat = new int[][] {
+        int[][] mat = new int[][]{
                 {0, 1},
                 {0, 1},
                 {1, 0}

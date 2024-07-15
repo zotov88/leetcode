@@ -10,9 +10,9 @@
 --     insert into Product (product_id, product_name) values ('300', 'Samsung')
 
 select p.product_name,
-    year,
-    price
+       year,
+       price
 from Product p
-    join Sales s on p.product_id = s.product_id;
+         join Sales s on p.product_id = s.product_id;
 
 

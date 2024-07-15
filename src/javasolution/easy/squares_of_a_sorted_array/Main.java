@@ -33,7 +33,7 @@ public class Main {
 
         @Override
         public int compareTo(Box o) {
-            return  (o.getI() > getI()) ? -1 : 1;
+            return (o.getI() > getI()) ? -1 : 1;
         }
     }
 
